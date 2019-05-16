@@ -4,7 +4,7 @@ I have create a basic rails app with ```Rails.new``` command, main code lies in 
 ### Installation
 Use these commands to setup environment for `call_git`.
 ```ruby
-rvm install 2.3,4
+rvm install 2.5.0
 bundle install
 ```
 
@@ -23,3 +23,6 @@ You can find following info in the response
 - Number of open issues that were opened in the last 24 hours
 - Number of open issues that were opened more than 24 hours ago but less than 7 days ago
 - Number of open issues that were opened more than 7 days ago 
+
+### [Heroku link](https://mysterious-beach-68758.herokuapp.com/issues/index?user=microsoft&repo=terminal)
+
