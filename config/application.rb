@@ -7,6 +7,8 @@ require_relative 'boot'
 require "action_controller/railtie"
 require "action_mailer/railtie"
 require "rails/test_unit/railtie"
+require "action_cable/engine"
+
 Bundler.require(*Rails.groups)
 
 module CallGit
